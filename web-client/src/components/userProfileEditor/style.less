@@ -1,0 +1,46 @@
+@import "../../common.less";
+@import "../signPage/style.less";
+
+#registerPage {
+  max-width: 600px;
+}
+
+#photoLabel {
+  float: left;
+  line-height: @rowHeight;
+  width: 100%;
+  font-size: 3.8vw;
+  @media (min-width: 700px) {
+    font-size: 24px;
+  }
+}
+
+#inputDiv {
+  float: left;
+  width: 100%;
+  height: 100%;
+  line-height: @rowHeight;
+}
+
+#photoRow {
+  padding: 10px;
+}
+
+#chooseBtn {
+  width: 80%;
+}
+
+#photoDiv {
+  margin: 15px;
+}
+
+#photoViewer {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+#backBtn {
+  color: white;
+  background-color: darken(@signupBtnColor, 20%);
+}

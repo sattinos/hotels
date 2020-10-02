@@ -1,0 +1,98 @@
+@sideBarBGColor: #1C253E;
+@menuBGColor: #2E374F;
+@activeMenuBGColor: #F5323F;
+@menuHoverBGColor: #F5323F;
+@menuFGColor: #cecece;
+@sideMenuTopMargin: 60px;
+
+#navBtn {
+    font-size: 30px;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+}
+
+#sideMenu {
+    background-color: @sideBarBGColor;
+    width: 220px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 60px);
+    transition: width .25s;
+}
+
+#sideMenuScrollable {
+    position: relative;
+    flex: 1 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#sideMenuFooter {
+    position: relative;
+    background-color: @menuHoverBGColor;
+    flex: 0 0 60px;    
+}
+
+#logoutDiv {
+    color: white;
+    background-color: @menuHoverBGColor;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    height: 100%;
+    line-height: 60px;
+}
+
+.menu {
+    background-color: @menuBGColor;
+    cursor: pointer;
+}
+
+.menu:hover {
+    background-color: @menuHoverBGColor;
+}
+
+.menuItem, .menu {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: @menuFGColor;
+    display: block;
+    transition: .25s;
+}
+
+.menuItem {    
+    padding: 8px 8px 8px 45px;
+}
+
+.active, .menuItem:hover {
+    color: white;
+    background-color: @menuHoverBGColor;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.closeBar {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: @menuFGColor;
+}
+
+.collapsable {
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+ .collapsed {
+     max-height: 0px;
+ }
+ 
+ .block {
+     display: block;
+ }

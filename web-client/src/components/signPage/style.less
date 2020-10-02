@@ -1,0 +1,48 @@
+@import "../../common.less";
+
+@inputBg: rgb(225, 225, 225);
+@inputPlaceHolderColor: darken(#D5D5D5, 20%);
+@signupBtnColor: #7766D5;
+
+#signTitle {
+  margin: 4px 0px;
+  font-size: 20px;
+}
+
+.inputRow {
+  padding: 12px 0px;
+}
+
+.input {
+  background-color: @inputBg;
+  width: 100%;
+  border-radius: 8px;
+  font-size: @fontSizeNormal;
+  border-style: none;
+  text-align: left;
+  font-family: @appFont;
+  color: darken(@inputPlaceHolderColor, 40%);
+  padding: 10px;
+  text-align: center;
+  margin: 4px 0px;
+  outline: none;
+
+  &::placeholder {
+    color: @inputPlaceHolderColor;
+  }
+}
+
+#forgotPwdTxt {
+  padding: 10px;
+  text-align: left;
+  color: darken(@inputPlaceHolderColor, 40%);
+  font-size: @fontSizeNormal - 2px;
+  display: inline-block;
+  position: relative;
+  right: -100px;
+  cursor: pointer;
+}
+
+#signupBtn {
+  background-color: rgb(141, 196, 59);
+}

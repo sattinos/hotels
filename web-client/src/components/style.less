@@ -1,0 +1,31 @@
+@pageBgColor: #F0F0F0;
+
+#app {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    height: 100%;
+}
+
+#appBody {
+    background-color: beige;
+    margin-top: 60px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#mainContents {
+    background-color: @pageBgColor;
+    flex-grow: 1;
+    transition: .25s;
+    overflow-x: hidden;
+}
+
+.formSlideOpen {
+    margin-left: 220px;
+}
+
+.formSlideClose {
+    margin-left: 0px;
+}

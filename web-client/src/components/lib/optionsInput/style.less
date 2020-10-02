@@ -1,0 +1,14 @@
+@bgColor: #e1e1e1;
+@fgColor: rgb(155, 155, 155);
+.roundedOptionInput {
+    background-color: @bgColor;
+    width: 100%;
+    border-radius: 15px;
+    border-style: none;
+    text-align: right;
+    color: @fgColor;
+    outline: none;
+    &::placeholder {
+        color: lighten(@fgColor, 40%)
+    }
+}

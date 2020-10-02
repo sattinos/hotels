@@ -1,0 +1,197 @@
+@font-face {
+    font-family: fixedAr;
+    src: url(./assets/fonts/fixedar.ttf);
+}
+
+@appFont: fixedAr, sans-serif;
+@appBGColor: #F22A37;
+@appGrey: #B6B6B7;
+
+@appBgColor: #FFFFFF;
+@fontSizeNormal: 16px;
+
+@boxBorderColor: #DDDDDD;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: center;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.fillContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.roundedBox {
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: @appFont;
+    cursor: pointer;
+    color: grey;
+    border-style: none;    
+}
+
+.roundedLink {
+    .roundedBox;
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+.roundedLinkDisabled {
+    .roundedLink;
+    background-color: darken(#F0F0F0, 20%);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.react-datepicker__input-container, .react-datepicker-wrapper {
+    width: 100%;
+}
+
+.block {
+    display: block;
+}
+
+.fullScreen {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+@import './grid.less';
+
+.textAlignLeft {
+    text-align: left;
+    text-align-last: left;
+}
+
+.textAlignRight {
+    text-align: right;
+    text-align-last: right;
+}
+
+.bg {
+    font-size: @fontSizeNormal * 2;
+}
+
+.nl {
+    font-size: @fontSizeNormal;
+}
+
+input,
+textarea {
+    font-family: @appFont;
+}
+
+body,
+html {
+    font-family: @appFont;
+    background-color: @appBgColor;
+    .fullScreen;
+}
+
+#root {
+    .fullScreen;
+}
+
+.form {
+    padding: 20px;
+}
+
+.formDiv {
+    padding: 15px 0px;
+}
+
+.inputStyle {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    font-size: 16px;
+}
+
+.paddedBox {
+    padding: 20px;
+}
+
+.paddedBoxHorizental {
+    padding: 0px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.disabled {
+    pointer-events: none;
+}
+
+.tableRow {
+    line-height: 60px;
+}
+
+.tableRowIcon {
+    padding: 10px;
+    width: 42px;
+}
+
+.tableRowIconDisabled {
+    .tableRowIcon;
+    opacity: 0.2;
+}
+
+.tableEditText {
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.formBox {
+  max-width: 350px;
+  border-width: 1px;
+  border-color: @boxBorderColor;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.formTitle {
+  margin: 4px 0px;
+  font-size: 20px;
+}
+
+#vendorLogo {
+  background-image: url("./assets/img/vendorLogo.png");
+  background-repeat: no-repeat no-repeat;
+  width: 200px;
+  height: 242px;
+  display: block;
+}

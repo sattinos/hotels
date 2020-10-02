@@ -1,0 +1,18 @@
+@import '../../../common.less';
+
+.roundedBtn {
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: @appFont;    
+    background-color: @appBGColor;
+    border: none;    
+    cursor: pointer;
+    &:disabled {
+        background-color: darken(#F0F0F0, 20%);
+    }
+    color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
