@@ -62,6 +62,14 @@ To build for <b>Production</b>
     cd client-pages
     npm run build-then-deploy:prod
 The build is already minimized and uglified.
+<br>
+![admin-01.png](shots\admin-01.png?raw=true)
+<br>
+![admin-02.png](shots\admin-02.png?raw=true)
+<br>
+![admin-03.png](shots\admin-03.png?raw=true)
+<br>
+![admin-04.png](shots\admin-04.png?raw=true)
 
 ### Localization
 The localization file is located at path: web-client\src\assets\localization\localization.csv<br>
@@ -85,6 +93,25 @@ In this project, react works on the server side to render the pages so that the 
 After that, you can run the client pages using the command:
 
     npm run dev
+
+
+After you run the client pages server, the starting page will be reachable at: http://localhost/search
+<br>
+
+![client-pages-01.png](shots\client-pages-01.png?raw=true)
+<br>
+
+![client-pages-02.png](shots\client-pages-02.png?raw=true)
+<br>
+
+![client-pages-03.png](shots\client-pages-03.png?raw=true)
+<br>
+
+![client-pages-04.png](shots\client-pages-04.png?raw=true)
+<br>
+
+![client-pages-05.png](shots\client-pages-05.png?raw=true)
+<br>
 
 ### Localization
 The pages can be localized using the same approache mentioned above.<br>

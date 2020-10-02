@@ -4,9 +4,9 @@ FROM public.user_entity;
 ALTER SEQUENCE user_entity_id_seq RESTART WITH 1;
 
 INSERT INTO public.user_entity(
-	"fullName", "userName", password, phone)
-	VALUES ('Patrick John', 'pat', '123', '0512345678');
-	
+	"fullName", "userName", password, phone, filename)
+	VALUES ('Patrick John', 'pat', '123', '0512345678', '/users/user-01.png');
+
 Delete
 FROM public.menu_item_entity;
 
