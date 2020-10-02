@@ -63,13 +63,13 @@ To build for <b>Production</b>
     npm run build-then-deploy:prod
 The build is already minimized and uglified.
 <br>
-![admin-01.png](shots\admin-01.png?raw=true)
+![admin-01.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/admin-01.png?raw=true)
 <br>
-![admin-02.png](shots\admin-02.png?raw=true)
+![admin-02.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/admin-02.png?raw=true)
 <br>
-![admin-03.png](shots\admin-03.png?raw=true)
+![admin-03.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/admin-03.png?raw=true)
 <br>
-![admin-04.png](shots\admin-04.png?raw=true)
+![admin-04.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/admin-04.png?raw=true)
 
 ### Localization
 The localization file is located at path: web-client\src\assets\localization\localization.csv<br>
@@ -98,19 +98,19 @@ After that, you can run the client pages using the command:
 After you run the client pages server, the starting page will be reachable at: http://localhost/search
 <br>
 
-![client-pages-01.png](shots\client-pages-01.png?raw=true)
+![client-pages-01.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/client-pages-01.png?raw=true)
 <br>
 
-![client-pages-02.png](shots\client-pages-02.png?raw=true)
+![client-pages-02.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/client-pages-02.png?raw=true)
 <br>
 
-![client-pages-03.png](shots\client-pages-03.png?raw=true)
+![client-pages-03.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/client-pages-03.png?raw=true)
 <br>
 
-![client-pages-04.png](shots\client-pages-04.png?raw=true)
+![client-pages-04.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/client-pages-04.png?raw=true)
 <br>
 
-![client-pages-05.png](shots\client-pages-05.png?raw=true)
+![client-pages-05.png](https://raw.githubusercontent.com/sattinos/hotels/master/shots/client-pages-05.png?raw=true)
 <br>
 
 ### Localization

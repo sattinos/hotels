@@ -1,6 +1,6 @@
 {
   "name": "hotel-admin",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "admin pages for the hotel web app",
   "scripts": {
     "start": "parcel serve src/index.html",

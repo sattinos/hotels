@@ -1,6 +1,6 @@
 {
   "name": "hotel-client-pages",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Application pages consumed by the end user. They are responsive and SEO friendly. They support RTL and LTR.",
   "main": "index.js",
   "scripts": {
